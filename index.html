@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Vishwas Prabhu</title>
+    
+    <link rel="stylesheet" href="./styles.css"></link>
+</head>
+<body>
+    <div class="container">
+
+        <nav class="navbar" tabindex="0" aria-label="navigation bar">
+            <div class="navbar-logo">
+                <img id="logo-svg" src="./assets/logoLight.svg" alt="">
+            </div>
+            
+            <div class="navbar-links">
+                <div class="navbar-linkItems">
+                    <a id="home-link" href="#home">Home</a>
+                    <a id="about-link" href="#about">About</a>
+                    <a id="projects-link" href="#projects">Projects</a>
+                    <a id="contact-link" href="#contact">Contact</a>
+                </div>
+                <div class="navbar-darkModeButton">
+                    <input id="darkmodeInput" type="checkbox" name="darkModeCheckbox">
+                    <div class="navbar-buttonOuterbox">
+                        <span class="navbar-darkModeIcon fa fa-sun"></span>
+                        <span class="navbar-darkModeIcon fa fa-moon"></span>
+                        <label for="darkmodeInput" class="navbar-buttonInnerbox"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-toggleButton">
+                <span class="hamburger-menu item-1"></span>
+                <span class="hamburger-menu item-2"></span>
+                <span class="hamburger-menu item-3"></span>
+            </div>
+        </nav>
+
+        <section class="content-section" id="home">
+            <div class="home-data">
+                <p class="home-dataSubheading">Hi, I'm</p>
+                <p class="home-dataHeading">Vishwas Prabhu</p>
+                <p class="home-dataDescription">Front end web developer</p>
+            </div>
+            <div class="home-image">
+                
+            </div>
+            <div class="mouse-scroll">
+              <div class="scroller"></div>
+            </div>
+        </section>
+
+        <section class="content-section" id="about">
+            <div class="about-container">
+                <div class="about-header">
+                    <p>About Me</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-contentDetails">
+                        <p class="about-contentDetailsDesc">
+                            I'm a Front-end Web Developer with over 2+ years of experience building responsive web applications for both business and consumer use.
+                        </p>
+                        <p class="about-contentDetailsHeader">Technical Skills</p>
+                        <div class="about-tags project-listItemTags">
+                            <span>Angular</span>
+                            <span>Vue</span>
+                            <span>React</span>
+                            <span>Javascript</span>
+                            <span>Typescript</span>
+                            <span>HTML5</span>
+                            <span>SCSS</span>
+                            <span>NodeJS</span>
+                        </div>
+                        <a class="btn-download" href="./assets/Airsewa_logo.png" download="">Download CV</a>
+                    </div>
+                    <img class="about-contentImage" src="./assets/photo.JPEG" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="projects">
+            <div class="projects-container">
+                <div class="project-header">
+                    <p>Projects I have worked on</p>
+                </div>
+                <div class="projects-list">
+                    <!-- list is injected from the script -->
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="contact">
+            <div class="contact-section">
+                <p class="contact-sectionHeading">Contact Me</p>
+                <p class="contact-sectionDescription">If you have any queries or just want to say Hi 👋, you can contact me on my social or the trusted mail, I will try to get back to you</p>
+                <div class="contact-socialLinks">
+                    <a href="mailto:vishwasprabhu8@outlook.com" target="_blank" aria-label="mail link">
+                        <span class="fa-regular fa-envelope"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vishwasprabhu98" target="_blank" aria-label="linkedin link">
+                        <span class="fa-brands fa-linkedin"></span>
+                    </a>
+                    <a href="https://twitter.com/vishwas1212" target="_blank" aria-label="twitter link">
+                        <span class="fa-brands fa-twitter"></span>
+                    </a>
+                    <a href="https://instagram.com/vishwas_prabhu" target="_blank" aria-label="instagram link">
+                        <span class="fa-brands fa-instagram"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-footer">
+                <p>Designed and developed by Vishwas Prabhu</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="./projects.js" defer></script>
+    <script src="./script.js" defer></script>
+</body>
+</html>
